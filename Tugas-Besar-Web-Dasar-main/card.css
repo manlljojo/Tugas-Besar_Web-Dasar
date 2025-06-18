@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #fff3d1;
+}
+.navbar {
+  background: linear-gradient(90deg, #ff6a00, #ffcc00);
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 100;
+  height: 60px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  width: 28px;
+  margin-right: 8px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  padding: 5px 8px;
+  transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #333;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 180px;
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffe082;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+/* CARD */
+.menu-card {
+  width: 180px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+}
+
+/* GAMBAR */
+.menu-card-img-top {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* BODY */
+.menu-card-body {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu-card-title {
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+.menu-card-text {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.identity {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding-top: 100px;
+}

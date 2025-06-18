@@ -1,0 +1,45 @@
+[
+  {
+    "id": "hainanese-chicken-rice",
+    "nama": "Nasi Ayam Hainan",
+    "deskripsi": "Nasi ayam khas Singapura yang gurih dan juicy banget",
+    "gambar": "nasiayamhainan.jpeg",
+    "link": "nasi_ayam_hainan.html"
+  },
+  {
+    "id": "laksa",
+    "nama": "Laksa Singapura",
+    "deskripsi": "Dengan kaldu laksa yang memberikan keseimbangan yang pas antara santan dan rempah-rempah, sup mi khas ini dijamin memuaskan selera Anda.",
+    "gambar": "laksa.jpeg",
+    "link": "laksa.html"
+  },
+  {
+    "id": "chilli-crab",
+    "nama": "Chilli Crab",
+    "deskripsi": "Chilli crab Singapura menyergap indra perasa Anda dengan rasa saus yang meresap ke dalam daging kepiting goreng yang lezat dan lunak.",
+    "gambar": "chilli-crab.jpg",
+    "link": "chillicrab.html"
+  },
+  {
+    "id": "roti-prata",
+    "nama": "Roti Prata",
+    "deskripsi": "Cara santap terbaik: gunakan tangan Anda!",
+    "gambar": "rotiprata.jpeg",
+    "link": "roti_prata.html"
+  },
+  {
+    "id": "kari-kepala-ikan",
+    "nama": "Kari Kepala Ikan",
+    "deskripsi": "Hidangan pedas ini adalah kari yang dimasak perlahan-lahan dengan sayuran dan kepala ikan utuh.",
+    "gambar": "kari.jpg",
+    "link": "karikepalaikan.html"
+  },
+  {
+    "id": "char-kway-teow",
+    "nama": "Char Kway Teow",
+    "deskripsi": "Sajian mi yang digoreng di atas wajan ini telah menjadi santapan kaki lima populer khas Singapura selama bertahun-tahun.",
+    "gambar": "char.jpeg",
+    "link": "charkwayteow.html"
+  }
+]
+
