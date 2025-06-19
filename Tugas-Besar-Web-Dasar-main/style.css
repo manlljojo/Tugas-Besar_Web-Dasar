@@ -13,6 +13,7 @@ html, body {
 
 /* NAVBAR */
 .navbar {
+  grid-area: nav;
   background: linear-gradient(90deg, #ff6a00, #ffcc00);
   padding: 10px 20px;
   width: 100%;
@@ -353,4 +354,55 @@ footer {
 
 .form-section button:hover {
   background: linear-gradient(90deg, #ff8800, #ffd700);
+}
+
+
+
+
+/* Container grid utama */
+body {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "content";
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+}
+
+/* Konten area */
+.halaman {
+  grid-area: content;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "gambar paragraf";
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto 1fr; 
+  gap: 20px;
+}
+
+.title-menu {
+  grid-area: title;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.gambar-menu {
+  grid-area: gambar;
+  text-align: center;
+}
+
+.gambar-menu img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.paragraf {
+  grid-area: paragraf;
+  text-align: justify;
 }
